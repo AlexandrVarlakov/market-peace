@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Medium.eot');
+    src: local('Montserrat Medium'), local('Montserrat-Medium'),
+        url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Medium.woff2') format('woff2'),
+        url('Montserrat-Medium.woff') format('woff'),
+        url('Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold.eot');
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+        url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Bold.woff2') format('woff2'),
+        url('Montserrat-Bold.woff') format('woff'),
+        url('Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Bold.eot');
+    src: local('Lato Bold'), local('Lato-Bold'),
+        url('Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Bold.woff2') format('woff2'),
+        url('Lato-Bold.woff') format('woff'),
+        url('Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa ';
+    src: local('Nexa  Bold'), local('Nexa--Bold'),
+        url('Nexa-Bold.woff2') format('woff2'),
+        url('Nexa-Bold.woff') format('woff'),
+        url('Nexa-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'), url('opensans.woff2') format('woff2'), url('opensans.woff') format('woff'), url('opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('opensansbold.woff2') format('woff2'), url('opensansbold.woff') format('woff'), url('opensansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
