@@ -294,7 +294,67 @@ h1{
 
 
 .you-get{
-  padding: 160px 100px 80px;
+  padding: 180px 100px 80px;
+}
+
+.you-get__items{
+  display: flex;
+  margin-top: 40px;
+}
+
+.you-get__item{
+  width: 25%;
+  position: relative;
+  &:not(:first-of-type){
+    padding-left: 55px;
+
+    &::after{
+      content: "";
+      position: absolute;
+      width: 1px;
+      height: 95px;
+      background-color: #fff;
+      transform: rotate(26deg);
+      left: -19%;
+      top: 15%;
+    }
+  }
+}
+
+.you-get__item-num{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120px;
+    
+
+    
+    
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+/* pink */
+  color: #F72283;
+
+
+}
+
+.you-get__item-text{
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #FFFFFF;
+
+}
+
+.t-center{
+  text-align: center;
+}
+
+.t-right{
+  text-align: right;
 }
 
 .title{
