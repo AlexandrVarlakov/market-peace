@@ -480,3 +480,59 @@ h1 {
   position: absolute;
   top: -70px;
   right: 0; }
+
+.faq {
+  padding: 60px 100px; }
+
+.faq__title-block {
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.half-round-btn {
+  width: 217px;
+  height: 58px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #521483; }
+  .half-round-btn svg {
+    position: absolute; }
+    .half-round-btn svg:nth-of-type(1) {
+      left: 0; }
+    .half-round-btn svg:nth-of-type(1) {
+      right: 0; }
+
+.half-round-btn__right-svg {
+  right: 0; }
+
+.half-round-btn__left-svg {
+  left: 0; }
+
+.half-round-btn--green {
+  color: #8CFB35; }
