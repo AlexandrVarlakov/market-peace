@@ -365,3 +365,18 @@ h1{
   text-transform: uppercase;
   color: #FFF;
 }
+
+.our-programm{
+  padding: 200px 100px;
+  position: relative;
+}
+
+.our-programm__title{
+  margin-bottom: 60px;
+}
+
+.our-programm__img{
+  position: absolute;
+  top: -70px;
+  right: 0;
+}
