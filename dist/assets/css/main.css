@@ -628,3 +628,92 @@ h1 {
 .review-btn {
   margin-top: 50px;
   color: #D1D8FF; }
+
+.coach {
+  padding-bottom: 120px; }
+
+.coach__title-block {
+  padding: 0 100px; }
+
+.coach__content-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.coach__about-coach {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-left: 65px;
+  padding-right: 100px; }
+
+.coach__about-coach--inner {
+  width: 100%;
+  border: 1px solid #D1D8FF;
+  border-left: 0;
+  border-right: 0;
+  padding: 45px 0 71px 100px; }
+
+.coach__name-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.coach__name {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  /* or 100% */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  /* pink */
+  color: #F72283; }
+
+.coach__btn {
+  margin-top: 0; }
+
+.coach__about-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #FFFFFF;
+  margin-top: 20px;
+  position: relative; }
+  .coach__about-item::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/triangle.svg");
+    background-repeat: no-repeat;
+    left: -35px;
+    top: 5px; }
+
+.coach__img {
+  -webkit-transform: translateY(30px);
+      -ms-transform: translateY(30px);
+          transform: translateY(30px); }
