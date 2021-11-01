@@ -58,6 +58,9 @@
   cursor: pointer;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+  @media (max-width: 1024px) {
+    .easySelect__cur-value {
+      font-size: 12px; } }
 
 .easySelect__options-list {
   list-style: none;
@@ -104,6 +107,9 @@
           box-sizing: border-box; }
   .easySelect__option:hover {
     background-color: rgba(0, 82, 177, 0.2); }
+  @media (max-width: 1024px) {
+    .easySelect__option {
+      font-size: 12px; } }
 
 .easySelect__option:not(:first-of-type) {
   border-top: 1px solid #999; }
@@ -140,6 +146,9 @@
     font-size: 14px;
     font-weight: 500;
     height: 60px; }
+    @media (max-width: 480px) {
+      .page-form-select.easySelect .easySelect__vis-value {
+        height: 50px; } }
   .page-form-select.easySelect .easySelect__options-list {
     background-color: #47037a;
     border-top: 1px solid #fff;
@@ -153,6 +162,9 @@
   border-bottom: 1px solid #000;
   color: #343434;
   z-index: 9; }
+  @media (max-width: 1024px) {
+    .modal-form-select {
+      height: 50px; } }
   .modal-form-select .easySelect__vis-value {
     border: none;
     padding-left: 0;
@@ -160,6 +172,9 @@
     font-size: 14px;
     font-weight: 600;
     height: 60px; }
+    @media (max-width: 1024px) {
+      .modal-form-select .easySelect__vis-value {
+        height: 50px; } }
   .modal-form-select .easySelect__options-list {
     background-color: #fff;
     border-top: 1px solid #000;

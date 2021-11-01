@@ -96,6 +96,9 @@
   -o-transition: all 500ms, border-radius 0ms;
   transition: all 500ms, border-radius 0ms;
   border: none; }
+  @media (max-width: 1024px) {
+    .easyAccordion__header {
+      min-height: 60px; } }
 
 .easyAccordion__header-text {
   margin: 0;
@@ -107,6 +110,15 @@
   text-transform: uppercase;
   overflow: hidden;
   color: #F72283; }
+  @media (max-width: 1024px) {
+    .easyAccordion__header-text {
+      font-size: 14px; } }
+  @media (max-width: 480px) {
+    .easyAccordion__header-text {
+      font-size: 12px;
+      margin-right: 10px; }
+      .easyAccordion__header-text:not(:first-of-type) {
+        margin-top: 20px; } }
 
 .accordion__triangle {
   width: 10px;
@@ -185,10 +197,30 @@
   font-size: 18px;
   line-height: 20px;
   letter-spacing: 0.15em; }
+  @media (max-width: 1024px) {
+    .easyAccordion__header-text--title {
+      font-size: 14px; } }
+  @media (max-width: 480px) {
+    .easyAccordion__header-text--title {
+      font-size: 12px;
+      margin-right: 10px; } }
 
 .easyAccordion__header-text--num {
   width: 315px;
+  min-width: 315px;
   letter-spacing: 0.15em; }
+  @media (max-width: 1366px) {
+    .easyAccordion__header-text--num {
+      width: 260px;
+      min-width: 260px; } }
+  @media (max-width: 1024px) {
+    .easyAccordion__header-text--num {
+      width: 150px;
+      min-width: 150px;
+      font-size: 18px; } }
+  @media (max-width: 480px) {
+    .easyAccordion__header-text--num {
+      font-size: 16px; } }
 
 .easyAccordion__content-text {
   color: #fff;
@@ -197,6 +229,18 @@
   font-size: 18px;
   line-height: 1.56;
   margin-left: 315px; }
+  @media (max-width: 1366px) {
+    .easyAccordion__content-text {
+      margin-left: 260px; } }
+  @media (max-width: 1024px) {
+    .easyAccordion__content-text {
+      font-size: 14px;
+      margin-left: 150px; } }
+  @media (max-width: 480px) {
+    .easyAccordion__content-text {
+      font-size: 12px;
+      max-width: 100%;
+      margin-left: 0px; } }
 
 .easyAccordion__text {
   color: #fff;
@@ -205,10 +249,19 @@
   font-size: 18px;
   line-height: 1.56;
   max-width: 80%; }
+  @media (max-width: 1024px) {
+    .easyAccordion__text {
+      font-size: 14px; } }
+  @media (max-width: 480px) {
+    .easyAccordion__text {
+      font-size: 12px;
+      max-width: 100%; } }
 
 .easyAccordion__close {
   width: 30px;
   height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   position: relative;
   -webkit-transition: 500ms;
   -o-transition: 500ms;
@@ -239,3 +292,33 @@
 .easyAccordion__faq-header {
   font-size: 18px;
   letter-spacing: 3px; }
+  @media (max-width: 1024px) {
+    .easyAccordion__faq-header {
+      font-size: 14px; } }
+  @media (max-width: 480px) {
+    .easyAccordion__faq-header {
+      font-size: 12px;
+      margin-right: 10px; } }
+
+.easyAccordion__header-text-content {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (max-width: 480px) {
+    .easyAccordion__header-text-content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+
+@media (max-width: 480px) {
+  .our-programm .easyAccordion__header {
+    padding-top: 10px;
+    padding-bottom: 10px; } }

@@ -7,6 +7,11 @@ const swiper = new Swiper('.swiper', {
         nextEl: '.reviews__next',
         prevEl: '.reviews__prev'
       }, 
+
+      breakpoints: {
+        // when window width is >= 320px
+        
+      }
     
   });
   

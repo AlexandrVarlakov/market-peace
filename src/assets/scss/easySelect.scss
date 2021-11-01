@@ -112,6 +112,11 @@ $option-checked-bg: rgba($color: #0052b1, $alpha: .3);
     overflow: hidden;
     cursor: pointer;
     box-sizing: border-box;
+
+
+    @media (max-width: 1024px){
+        font-size: 12px;
+    }
     
 }
 
@@ -155,6 +160,10 @@ $option-checked-bg: rgba($color: #0052b1, $alpha: .3);
     box-sizing: border-box;
     &:hover{
         background-color: $option-hover-bg ;
+    }
+
+    @media (max-width: 1024px){
+        font-size: 12px;
     }
 }
 
@@ -204,6 +213,10 @@ $option-checked-bg: rgba($color: #0052b1, $alpha: .3);
         font-size: 14px;
         font-weight: 500;
         height: 60px;
+
+        @media (max-width: 480px){
+            height: 50px;
+        }
     }
 
     .easySelect__options-list{
@@ -221,6 +234,10 @@ $option-checked-bg: rgba($color: #0052b1, $alpha: .3);
     color: #343434;
     z-index: 9;
 
+    @media (max-width: 1024px){
+        height: 50px;
+    }
+
     .easySelect__vis-value{
         border: none;
         padding-left: 0;
@@ -228,6 +245,10 @@ $option-checked-bg: rgba($color: #0052b1, $alpha: .3);
         font-size: 14px;
         font-weight: 600;
         height: 60px;
+
+        @media (max-width: 1024px){
+            height: 50px;
+        }
     }
 
     .easySelect__options-list{

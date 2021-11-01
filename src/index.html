@@ -18,6 +18,7 @@
 <body>
     
     <main>
+        <!--Адаптирован-->
         <nav class="sidebar">
             <div class="logo">
                 <a href="index.html" class="logo__link">
@@ -38,35 +39,39 @@
                 <li><a href="#" style="color: #84D345">СберМаркет</a></li>
                 <li><a href="#" style="color: #FF4E4E">Amazon</a></li>
             </ul>
+            <div class="sidebar__btn-container">
+                <button class="join-btn btn-entry">
+                    <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="join-btn__left-svg">
+                        <path d="M49 1H29C13.536 1 1 13.536 1 29C1 44.464 13.536 57 29 57H49" stroke="#521483" stroke-width="2"/>
+                    </svg>
+                        
+                    Вступить
+    
+                    <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="join-btn__right-svg">
+                        <path d="M0 1H20C35.464 1 48 13.536 48 29C48 44.464 35.464 57 20 57H0" stroke="#521483" stroke-width="2"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="social-gr--outer">
+                <div class="social-gr">
+                    <a href="#">
+                        <img src="assets/img/fb.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/inst.svg" alt="">
+                    </a>
 
-            <button class="join-btn btn-entry">
-                <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="join-btn__left-svg">
-                    <path d="M49 1H29C13.536 1 1 13.536 1 29C1 44.464 13.536 57 29 57H49" stroke="#521483" stroke-width="2"/>
-                </svg>
-                    
-                Вступить
-
-                <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="join-btn__right-svg">
-                    <path d="M0 1H20C35.464 1 48 13.536 48 29C48 44.464 35.464 57 20 57H0" stroke="#521483" stroke-width="2"/>
-                </svg>
-            </button>
-
-            <div class="social-gr">
-                <a href="#">
-                    <img src="assets/img/fb.svg" alt="">
-                </a>
-                <a href="#">
-                    <img src="assets/img/inst.svg" alt="">
-                </a>
-
-                <a href="#">
-                    <img src="assets/img/youtube.svg" alt="">
-                </a>
+                    <a href="#">
+                        <img src="assets/img/youtube.svg" alt="">
+                    </a>
+                </div>
             </div>
         </nav>
         <div class="content">
-
-            <section class="hero">
+            <!--Адаптирован-->
+            <section class="hero" >
+                
 
                 <div class="hero__text-block">
                     <div class="hero__left-text">
@@ -91,8 +96,8 @@
 
                 <img src="assets/img/hero-star.png" class="hero__star">
             </section>
-
-            <section class="target-audience">
+            <!--Адаптирован-->
+            <section class="target-audience" >
                 <div class="target-audience__item target-audience__item-1">
                     <p>Для тех <br />кто решил открыть <br />свое дело</p>
                 </div>
@@ -105,7 +110,7 @@
                     </p>
                 </div>
             </section>
-
+            <!--Адаптирован-->
             <section class="you-get">
                 <h2 class="title">Что вы получите <br />в цифрах</h2>
 
@@ -133,7 +138,7 @@
 
             </section>
 
-
+            <!--Адаптирован-->
             <section class="reviews">
                 <h2 class="title">Наши ученики <br />уже заработали <br />больше <span style="color: #84D345;">98 миллионов <br />рублей</span></h2>
 
@@ -212,8 +217,8 @@
                 </button>
             </section>
 
-
-            <section class="our-programm ">
+            <!--Адаптирован-->
+            <section class="our-programm "  >
 
                 <img src="assets/img/our-programm-img.png" class="our-programm__img">
                 <h2 class="title our-programm__title">Наша <br />программа</h2>
@@ -222,8 +227,11 @@
                 <div class="easyAccordion">
                     <div class="easyAccordion__item" data-state="deploy">
                         <div class="easyAccordion__header">
-                            <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №0</p>
-                            <p class="easyAccordion__header-text easyAccordion__header-text--title">Регистрация на маркетплейсе</p>
+                            <div class="easyAccordion__header-text-content">
+                                <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №0</p>
+                                <p class="easyAccordion__header-text easyAccordion__header-text--title">Регистрация на маркетплейсе</p>
+                            </div>
+                            
 
                             <div class="easyAccordion__close"></div>
                         </div>
@@ -244,8 +252,11 @@
         
                     <div class="easyAccordion__item" data-state="rolled">
                         <div class="easyAccordion__header">
-                            <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №1</p>
-                            <p class="easyAccordion__header-text easyAccordion__header-text--title">Стратегия успешного старта на Вайлдберриз</p>
+                            <div class="easyAccordion__header-text-content">
+                                <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №1</p>
+                                <p class="easyAccordion__header-text easyAccordion__header-text--title">Стратегия успешного старта на Вайлдберриз</p>
+                            </div>
+                            
 
                             <div class="easyAccordion__close"></div>
                         </div>
@@ -267,9 +278,10 @@
 
                     <div class="easyAccordion__item" data-state="rolled">
                         <div class="easyAccordion__header">
-                            <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №3</p>
-                            <p class="easyAccordion__header-text easyAccordion__header-text--title">Стратегия менеджера</p>
-
+                            <div class="easyAccordion__header-text-content">
+                                <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №3</p>
+                                <p class="easyAccordion__header-text easyAccordion__header-text--title">Стратегия менеджера</p>
+                            </div>
                             <div class="easyAccordion__close"></div>
                         </div>
                         <div class="easyAccordion__content">
@@ -290,9 +302,10 @@
 
                     <div class="easyAccordion__item" data-state="rolled">
                         <div class="easyAccordion__header">
-                            <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №3</p>
-                            <p class="easyAccordion__header-text easyAccordion__header-text--title">Правильное оформление поставки</p>
-
+                            <div class="easyAccordion__header-text-content">
+                                <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №3</p>
+                                <p class="easyAccordion__header-text easyAccordion__header-text--title">Правильное оформление поставки</p>
+                            </div>
                             <div class="easyAccordion__close"></div>
                         </div>
                         <div class="easyAccordion__content">
@@ -312,9 +325,10 @@
 
                     <div class="easyAccordion__item" data-state="rolled">
                         <div class="easyAccordion__header">
-                            <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №4</p>
-                            <p class="easyAccordion__header-text easyAccordion__header-text--title">Анализ конкурентов аналитика</p>
-
+                            <div class="easyAccordion__header-text-content">
+                                <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №4</p>
+                                <p class="easyAccordion__header-text easyAccordion__header-text--title">Анализ конкурентов аналитика</p>
+                            </div>
                             <div class="easyAccordion__close"></div>
                         </div>
                         <div class="easyAccordion__content">
@@ -334,9 +348,10 @@
 
                     <div class="easyAccordion__item" data-state="rolled">
                         <div class="easyAccordion__header">
-                            <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №5</p>
-                            <p class="easyAccordion__header-text easyAccordion__header-text--title">Отчеты,личный кабинет</p>
-
+                            <div class="easyAccordion__header-text-content">
+                                <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №5</p>
+                                <p class="easyAccordion__header-text easyAccordion__header-text--title">Отчеты,личный кабинет</p>
+                            </div>
                             <div class="easyAccordion__close"></div>
                         </div>
                         <div class="easyAccordion__content">
@@ -356,9 +371,10 @@
 
                     <div class="easyAccordion__item" data-state="rolled">
                         <div class="easyAccordion__header">
-                            <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №6</p>
-                            <p class="easyAccordion__header-text easyAccordion__header-text--title">Продвижение. Вывод в ТОП</p>
-
+                            <div class="easyAccordion__header-text-content">
+                                <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №6</p>
+                                <p class="easyAccordion__header-text easyAccordion__header-text--title">Продвижение. Вывод в ТОП</p>
+                            </div>
                             <div class="easyAccordion__close"></div>
                         </div>
                         <div class="easyAccordion__content">
@@ -378,9 +394,10 @@
 
                     <div class="easyAccordion__item" data-state="rolled">
                         <div class="easyAccordion__header">
-                            <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №7</p>
-                            <p class="easyAccordion__header-text easyAccordion__header-text--title">Анализ цены и прогноз продаж</p>
-
+                            <div class="easyAccordion__header-text-content">
+                                <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №7</p>
+                                <p class="easyAccordion__header-text easyAccordion__header-text--title">Анализ цены и прогноз продаж</p>
+                            </div>
                             <div class="easyAccordion__close"></div>
                         </div>
                         <div class="easyAccordion__content">
@@ -400,8 +417,10 @@
 
                     <div class="easyAccordion__item" data-state="rolled">
                         <div class="easyAccordion__header">
-                            <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №8</p>
-                            <p class="easyAccordion__header-text easyAccordion__header-text--title">Закупка и доставка товаров в Китае</p>
+                            <div class="easyAccordion__header-text-content">
+                                <p class="easyAccordion__header-text easyAccordion__header-text--num">Блок №8</p>
+                                <p class="easyAccordion__header-text easyAccordion__header-text--title">Закупка и доставка товаров в Китае</p>
+                            </div>
 
                             <div class="easyAccordion__close"></div>
                         </div>
@@ -423,7 +442,7 @@
                </div>
             </section>
 
-
+            <!--Адаптирован-->
             <section class="coach">
                 <div class="coach__title-block">
                     <h2 class="title">СПИКЕР И ТРЕНЕР <br />с реальным заработком <br />на Wildberris от 2 млн рублей</h2>
@@ -459,7 +478,7 @@
                 
             </section>
 
-
+            
             <section class="price-plan">
                 <h2 class="title">Выберите удобный вам <br />тарифный план</h2>
 
@@ -620,7 +639,7 @@
                 </div>
             </section>
 
-
+            
             <section class="faq">
                 <div class="faq__title-block">
                     <h2 class="title">Ответы на часто <br />задаваемые вопросы</h2>
@@ -737,8 +756,8 @@
                 </div>
             </section>
 
-
-            <section class="request-s">
+            
+            <section class="request-s" >
                 <div class="request-s__inner">
                     <div class="request-s__text-block">
                         <h2 class="title">125 ЧЕЛОВЕК <br />уже ЗАПИСАЛИСЬ <br />В ЭТОМ МЕСЯЦЕ</h2>
@@ -797,7 +816,7 @@
             </section>
 
 
-            <footer class="footer">
+            <footer class="footer" >
                 <div class="footer__inner">
                     <p class="footer__copy footer__text">© 2021 ООО «МP»</p>
                     <p class="footer__request footer__text btn-entry">Связаться с нами</p>
