@@ -64,3 +64,34 @@ document.querySelectorAll('.btn-question').forEach( (item) => {
     }
 
 } ) 
+
+
+let modal_menu = document.querySelector('.modal-menu');
+let close_menu = document.querySelector('.modal-menu__close-btn');
+
+
+document.querySelector('.sidebar__hamburger').onclick = function(){
+  modal_menu.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal(modal){
+  document.body.style.overflow = 'auto';
+  modal_menu.style.display = 'none';
+}
+
+close_menu.onclick = function(){
+  closeModal(modal_menu);
+}
+
+document.querySelectorAll('.site-menu__link').forEach( (item) => {
+  item.onclick = function(){
+    closeModal(modal_menu);
+  }
+} ) 
+
+document.querySelector('.join-btn_modal').onclick = function(){
+  closeModal(modal_menu);
+  let modal = new easyModal('modal-entry', options);
+}
+
