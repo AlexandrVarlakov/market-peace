@@ -7,6 +7,9 @@
     <title>Market Place</title>
     <link rel="stylesheet" href="assets/css/main.min.css">
     <link rel="stylesheet" href="assets/css/easyAccordion.min.css">
+    <link rel="stylesheet" href="assets/css/easySelect.min.css">
+    <link rel="stylesheet" href="assets/css/easyRadioCheck.min.css">
+    <link rel="stylesheet" href="assets/css/easyModal.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +39,7 @@
                 <li><a href="#" style="color: #FF4E4E">Amazon</a></li>
             </ul>
 
-            <button class="join-btn">
+            <button class="join-btn btn-entry">
                 <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="join-btn__left-svg">
                     <path d="M49 1H29C13.536 1 1 13.536 1 29C1 44.464 13.536 57 29 57H49" stroke="#521483" stroke-width="2"/>
                 </svg>
@@ -69,7 +72,7 @@
                     <div class="hero__left-text">
                         <h1>Образовательная <br />платформа по работе <br />с маркетплейсами</h1>
 
-                        <button class="btn-begin">Начать сейчас</button>
+                        <button class="btn-begin btn-entry">Начать сейчас</button>
                     </div>
                     <div class="hero__right-text">
                         <p>Зарабатывай от <span style="color: #F72283;">300 000 ₽</span><br />за 1,5 месяца на Wildberris, Ozon, ЯндексМаркет, СберМаркет</p>
@@ -196,7 +199,7 @@
                     </div>
                 </div>
 
-                <button class="half-round-btn review-btn">
+                <button class="half-round-btn review-btn btn-entry">
                     <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="half-round-btn__left-svg">
                         <path d="M49 1H29C13.536 1 1 13.536 1 29C1 44.464 13.536 57 29 57H49" stroke="#D1D8FF" stroke-width="2"/>
                     </svg>
@@ -432,7 +435,7 @@
                         <div class="coach__about-coach--inner">
                             <div class="coach__name-block">
                                 <h3 class="coach__name">Николай Павлов</h3>
-                                <button class="half-round-btn review-btn coach__btn">
+                                <button class="half-round-btn review-btn coach__btn btn-question">
                                     <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="half-round-btn__left-svg">
                                         <path d="M49 1H29C13.536 1 1 13.536 1 29C1 44.464 13.536 57 29 57H49" stroke="#D1D8FF" stroke-width="2"/>
                                     </svg>
@@ -457,10 +460,171 @@
             </section>
 
 
+            <section class="price-plan">
+                <h2 class="title">Выберите удобный вам <br />тарифный план</h2>
+
+                <div class="swiper-price-plan">
+                    <div class="slider-navs_plans">
+                            
+                        <svg width="51" height="23" viewBox="0 0 51 23" fill="none" xmlns="http://www.w3.org/2000/svg" class="swiper-btn-navs  swiper-btn reviews__prev">
+                            <path opacity="1" d="M0.938119 10.2357C0.352333 10.8215 0.352333 11.7713 0.938119 12.357L10.4841 21.903C11.0698 22.4888 12.0196 22.4888 12.6054 21.903C13.1912 21.3172 13.1912 20.3675 12.6054 19.7817L4.1201 11.2964L12.6054 2.81111C13.1912 2.22532 13.1912 1.27557 12.6054 0.689785C12.0196 0.103999 11.0698 0.103999 10.4841 0.689785L0.938119 10.2357ZM50.5352 9.79639L1.99878 9.79639V12.7964L50.5352 12.7964V9.79639Z" fill="white"/>
+                        </svg>
+                        <svg width="51" height="23" viewBox="0 0 51 23" fill="none" xmlns="http://www.w3.org/2000/svg" class="swiper-btn-navs  swiper-btn reviews__next">
+                            <path opacity="1" d="M0.938119 10.2357C0.352333 10.8215 0.352333 11.7713 0.938119 12.357L10.4841 21.903C11.0698 22.4888 12.0196 22.4888 12.6054 21.903C13.1912 21.3172 13.1912 20.3675 12.6054 19.7817L4.1201 11.2964L12.6054 2.81111C13.1912 2.22532 13.1912 1.27557 12.6054 0.689785C12.0196 0.103999 11.0698 0.103999 10.4841 0.689785L0.938119 10.2357ZM50.5352 9.79639L1.99878 9.79639V12.7964L50.5352 12.7964V9.79639Z" fill="white"/>
+                        </svg>   
+                            
+                    </div>
+                    <div class="swiper-wrapper price-plan__list">
+                        <div class="price-plan__item swiper-slide">
+                            <div class="price-plan__header base-plan">
+                                <p class="price-plan__type">пакет</p>
+                                <div class="price-plan__about-package">
+                                    <p class="price-plan__package-name">Базовый</p>
+                                    <p class="price-plan__package-price">29 990 ₽</p>
+                                </div>
+                            </div>
+    
+                            <div class="price-plan__body">
+                                <ul class="price-plan__include-list">
+                                    <li class="price-plan__include-item package-execlude">Личный разбор бизнеса с Николаем</li>
+                                    <li class="price-plan__include-item package-execlude">Час с Николаем и кураторами</li>
+                                    <li class="price-plan__include-item package-execlude">Групповой чат в 10-тке</li>
+                                    <li class="price-plan__include-item package-execlude">Закупка и доставка товаров из Китая</li>
+                                    <li class="price-plan__include-item package-execlude">Контакты Поставщиков</li>
+                                    <li class="price-plan__include-item package-execlude">4 онлайн-разбора «вопрос-ответ»</li>
+                                    <li class="price-plan__include-item package-execlude">Масштабирование</li>
+                                    <li class="price-plan__include-item package-include">Регистрация и юридическая сторона</li>
+                                    <li class="price-plan__include-item package-include">Стратегия успешного старта</li>
+                                    <li class="price-plan__include-item package-include">Условия WB</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                </ul>
+    
+                                <button class="btn-request btn-entry">
+                                    <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="join-btn__left-svg">
+                                        <path d="M49 1H29C13.536 1 1 13.536 1 29C1 44.464 13.536 57 29 57H49" stroke="#521483" stroke-width="2"/>
+                                    </svg>
+                                        
+                                    оставить заявку
+                    
+                                    <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="join-btn__right-svg">
+                                        <path d="M0 1H20C35.464 1 48 13.536 48 29C48 44.464 35.464 57 20 57H0" stroke="#521483" stroke-width="2"/>
+                                    </svg>
+                                    
+                                </button>
+                            </div>  
+    
+    
+                        
+                        </div>
+    
+                        <div class="price-plan__item swiper-slide">
+                            <div class="price-plan__header advanced-plan">
+                                <p class="price-plan__type">пакет</p>
+                                <div class="price-plan__about-package">
+                                    <p class="price-plan__package-name">Продвинутый</p>
+                                    <p class="price-plan__package-price">49 990 ₽</p>
+                                </div>
+                            </div>
+    
+                            <div class="price-plan__body">
+                                <ul class="price-plan__include-list">
+                                    <li class="price-plan__include-item package-execlude">Личный разбор бизнеса с Николаем</li>
+                                    <li class="price-plan__include-item package-execlude">Час с Николаем и кураторами</li>
+                                    <li class="price-plan__include-item package-execlude">Групповой чат в 10-тке</li>
+                                    <li class="price-plan__include-item package-execlude">Закупка и доставка товаров из Китая</li>
+                                    <li class="price-plan__include-item package-include">Контакты Поставщиков</li>
+                                    <li class="price-plan__include-item package-include">4 онлайн-разбора «вопрос-ответ»</li>
+                                    <li class="price-plan__include-item package-include">Масштабирование</li>
+                                    <li class="price-plan__include-item package-include">Регистрация и юридическая сторона</li>
+                                    <li class="price-plan__include-item package-include">Стратегия успешного старта</li>
+                                    <li class="price-plan__include-item package-include">Условия WB</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                </ul>
+    
+                                <button class="btn-request btn-entry">
+                                    <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="join-btn__left-svg">
+                                        <path d="M49 1H29C13.536 1 1 13.536 1 29C1 44.464 13.536 57 29 57H49" stroke="#521483" stroke-width="2"/>
+                                    </svg>
+                                        
+                                    оставить заявку
+                    
+                                    <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="join-btn__right-svg">
+                                        <path d="M0 1H20C35.464 1 48 13.536 48 29C48 44.464 35.464 57 20 57H0" stroke="#521483" stroke-width="2"/>
+                                    </svg>
+                                    
+                                </button>
+                            </div>  
+    
+    
+                        
+                        </div>
+    
+                        <div class="price-plan__item swiper-slide">
+                            <div class="price-plan__header max-plan">
+                                <p class="price-plan__type">пакет</p>
+                                <div class="price-plan__about-package">
+                                    <p class="price-plan__package-name">Максимальный</p>
+                                    <p class="price-plan__package-price">98 890 ₽</p>
+                                </div>
+                            </div>
+    
+                            <div class="price-plan__body">
+                                <ul class="price-plan__include-list">
+                                    <li class="price-plan__include-item package-include">Личный разбор бизнеса с Николаем</li>
+                                    <li class="price-plan__include-item package-include">Час с Николаем и кураторами</li>
+                                    <li class="price-plan__include-item package-include">Групповой чат в 10-тке</li>
+                                    <li class="price-plan__include-item package-include">Закупка и доставка товаров из Китая</li>
+                                    <li class="price-plan__include-item package-include">Контакты Поставщиков</li>
+                                    <li class="price-plan__include-item package-include">4 онлайн-разбора «вопрос-ответ»</li>
+                                    <li class="price-plan__include-item package-include">Масштабирование</li>
+                                    <li class="price-plan__include-item package-include">Регистрация и юридическая сторона</li>
+                                    <li class="price-plan__include-item package-include">Стратегия успешного старта</li>
+                                    <li class="price-plan__include-item package-include">Условия WB</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                    <li class="price-plan__include-item package-include">Fake item</li>
+                                </ul>
+    
+                                <button class="btn-request btn-entry">
+                                    <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="join-btn__left-svg">
+                                        <path d="M49 1H29C13.536 1 1 13.536 1 29C1 44.464 13.536 57 29 57H49" stroke="#521483" stroke-width="2"/>
+                                    </svg>
+                                        
+                                    оставить заявку
+                    
+                                    <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="join-btn__right-svg">
+                                        <path d="M0 1H20C35.464 1 48 13.536 48 29C48 44.464 35.464 57 20 57H0" stroke="#521483" stroke-width="2"/>
+                                    </svg>
+                                    
+                                </button>
+                            </div>  
+    
+    
+                        
+                        </div>
+
+                        
+                    </div>
+
+                    
+                </div>
+            </section>
+
+
             <section class="faq">
                 <div class="faq__title-block">
                     <h2 class="title">Ответы на часто <br />задаваемые вопросы</h2>
-                    <button class="half-round-btn half-round-btn--green">
+                    <button class="half-round-btn half-round-btn--green btn-question">
                         <svg width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg" class="half-round-btn__left-svg">
                             <path d="M49 1H29C13.536 1 1 13.536 1 29C1 44.464 13.536 57 29 57H49" stroke="#8CFB35" stroke-width="2"/>
                         </svg>
@@ -572,11 +736,205 @@
                     </div>
                 </div>
             </section>
+
+
+            <section class="request-s">
+                <div class="request-s__inner">
+                    <div class="request-s__text-block">
+                        <h2 class="title">125 ЧЕЛОВЕК <br />уже ЗАПИСАЛИСЬ <br />В ЭТОМ МЕСЯЦЕ</h2>
+                        <h3 class="request-s__subtitle">ТОРОПИСЬ ЗАНЯТЬ МЕСТО!</h3>
+                    </div>
+                    <div class="request-s__form-block">
+                        <form class="page-form" method="POST">
+                            <div class="form-row">
+                                <div class="input-wrap">
+                                    <input type="text" class="page-form__input-text" placeholder="Имя">
+                                </div>    
+                            </div>
+
+                            <div class="form-row form-row_space-between">
+                                <div class="input-wrap input-wrap_half">
+                                    <input type="text" class="page-form__input-text" placeholder="Телефон">
+                                </div>  
+                                <div class="input-wrap input-wrap_half">
+                                    <input type="text" class="page-form__input-text" placeholder="email">
+                                </div>  
+                            </div>
+
+                            <div class="form-row">
+                                <div class="easySelect page-form-select">
+                                    <div class="easySelect__vis-value">
+                                        <div class="easySelect__cur-value" data-value="">
+                                            Тарифный план
+                                        </div>
+                                        <input type="text" name="city" class="easySelect__hide-input">
+                                        <img class = "easySelect__arrow" src="assets/img/lise-arrow.svg">
+                                    </div>
+                                    <ul class="easySelect__options-list" data-state="rolled" data-hide_checked="false">
+                                        <li class="easySelect__option" data-value="0">Базовый</li>
+                                        <li class="easySelect__option" data-value="1">Продвинутый</li>
+                                        <li class="easySelect__option" data-value="2">Максимальный</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="form-row form-row_cb">
+                                <label for="page-form-cb" class="easyCheckbox">
+                                    <input class ='easyCheckbox__hidden-checkbox' type="checkbox" name="checkbox-name" id="page-form-cb" checked="checked">
+                                    <div class="easyCheckbox__visible-checkbox easyCheckbox__img"></div>
+                                    <p class="easyCheckbox__text">Я согласен с обработкой персональных данных</p>
+                                </label>
+                            </div>
+
+                            <div class="form-row form-row_btn">
+                                <input type="submit" value="Записаться" class="page-form__send">
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+                
+            </section>
+
+
+            <footer class="footer">
+                <div class="footer__inner">
+                    <p class="footer__copy footer__text">© 2021 ООО «МP»</p>
+                    <p class="footer__request footer__text btn-entry">Связаться с нами</p>
+                </div>
+                <img src="assets/img/footer-img.png" class="footer-img">
+            </footer>
+
+            
         </div>
     </main>
 
+
+    
+    <div class="modal modal-entry">
+        <div class="modal__header">
+            <div class="modal__title-block">
+                <h2 class="modal__title">125 ЧЕЛОВЕК <br />уже ЗАПИСАЛИСЬ <br />В ЭТОМ МЕСЯЦЕ</h2>
+                <p class="modal__subtitle">ТОРОПИСЬ ЗАНЯТЬ МЕСТО!</p>
+            </div>
+            <div class="modal__close-block">
+                <div class="close-btn-wrap">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="close-btn">
+                        <line x1="10.2089" y1="31.2089" x2="31.4221" y2="9.99567" stroke="black" stroke-width="3"/>
+                        <line x1="10.0045" y1="9.99549" x2="31.2177" y2="31.2087" stroke="black" stroke-width="3"/>
+                    </svg>    
+                </div>
+                
+                    
+            </div>
+        </div>
+
+        <div class="modal__form">
+            <form action="POST" class="modal-form">
+                <div class="form-row">
+                    <div class="input-wrap">
+                        <input type="text" class="modal-form__input" name="name" placeholder="Имя">
+                    </div>
+                </div>
+
+                <div class="form-row form-row_space-between">
+                    <div class="input-wrap input-wrap_half">
+                        <input type="text" class="modal-form__input" name="phone" placeholder="Телефон">
+                    </div>
+
+                    <div class="input-wrap input-wrap_half">
+                        <input type="email" class="modal-form__input" name="email" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="easySelect modal-form-select">
+                        <div class="easySelect__vis-value">
+                            <div class="easySelect__cur-value" data-value="">
+                                Тарифный план
+                            </div>
+                            <input type="text" name="city" class="easySelect__hide-input">
+                            <img class = "easySelect__arrow" src="assets/img/list-black-arrow.svg">
+                        </div>
+                        <ul class="easySelect__options-list" data-state="rolled" data-hide_checked="false">
+                            <li class="easySelect__option" data-value="0">Базовый</li>
+                            <li class="easySelect__option" data-value="1">Продвинутый</li>
+                            <li class="easySelect__option" data-value="2">Максимальный</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="form-row form-row_cb modal-cb-wrap">
+                    <label for="modal-feed-cb" class="easyCheckbox">
+                        <input class ='easyCheckbox__hidden-checkbox' type="checkbox" name="checkbox-name" id="modal-feed-cb" checked="checked">
+                        <div class="easyCheckbox__visible-checkbox easyCheckbox__img"></div>
+                        <p class="easyCheckbox__text">Я согласен с обработкой персональных данных</p>
+                    </label>
+                </div>
+
+                <div class="form-row form-row_btn">
+                    <input type="submit" value="Записаться" class="modal-form__send">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="modal modal-question">
+        <div class="modal__header">
+            <div class="modal__title-block">
+                <h2 class="modal__title">Задайте вопрос <br />и мы обязательно <br />ответим</h2>
+            </div>
+            <div class="modal__close-block">
+                <div class="close-btn-wrap">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="close-btn">
+                        <line x1="10.2089" y1="31.2089" x2="31.4221" y2="9.99567" stroke="black" stroke-width="3"/>
+                        <line x1="10.0045" y1="9.99549" x2="31.2177" y2="31.2087" stroke="black" stroke-width="3"/>
+                    </svg>    
+                </div>
+                
+                    
+            </div>
+        </div>
+
+        <div class="modal__form">
+            <form action="POST" class="modal-form">
+                        
+                <div class="form-row form-row_space-between">
+                    <div class="input-wrap input-wrap_half">
+                        <input type="text" class="modal-form__input" name="phone" placeholder="Телефон">
+                    </div>
+
+                    <div class="input-wrap input-wrap_half">
+                        <input type="email" class="modal-form__input" name="email" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <textarea class = "textarea" name="message-text"></textarea>
+                </div>
+
+                <div class="form-row form-row_cb modal-cb-wrap">
+                    <label for="modal-msg-cb" class="easyCheckbox">
+                        <input class ='easyCheckbox__hidden-checkbox' type="checkbox" name="checkbox-name" id="modal-msg-cb" checked="checked">
+                        <div class="easyCheckbox__visible-checkbox easyCheckbox__img"></div>
+                        <p class="easyCheckbox__text">Я согласен с обработкой персональных данных</p>
+                    </label>
+                </div>
+
+                <div class="form-row form-row_btn">
+                    <input type="submit" value="Записаться" class="modal-form__send">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
     <script src="assets/js/easyAccordion.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/easySelect.js"></script>
+    <script src="assets/js/easyModal.js"></script>
+    
+    <script src="assets/js/swiper-bundle.min.js"></script>    
     <script src="assets/js/main.js"></script>
 </body>
 </html>
