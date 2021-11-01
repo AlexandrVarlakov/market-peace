@@ -102,6 +102,17 @@ ul{
   overflow: hidden;
 }
 
+.hero__subtitle{
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
 .hero__img{
   max-width: 100%;
   object-fit: contain;
@@ -327,6 +338,53 @@ h1{
   }
 
 }
+
+.toindex{
+  width: 215px;
+  height: 56px;
+  background: #8CFB35;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #22033A;
+  transition: .5s;
+
+  &:hover{
+    background-color: #F72283;
+    color: #fff;
+  }
+  @media (max-width: 1366px){
+    width: 155px;
+    height: 40px;
+    font-size: 12px;
+  }
+  @media (max-width: 680px){
+    margin-top: 25px;
+    margin-bottom: 10px;
+    
+  }
+  @media (max-width: 480px){
+    width: 130px;
+    height: 35px;
+  }
+
+}
+
+
+
 .logo{
   display: flex;
   justify-content: center;
@@ -2243,3 +2301,23 @@ h1{
     line-height: 1;
   }
 }
+
+.social-gr_thanks{
+  justify-content: flex-start;
+  margin-top: 35px;
+  a{
+    height: 35px;
+  }
+}
+
+.hero__img_thanks{
+  margin-top: -80px;
+}
+
+.hero_thanks{
+  max-height: 100vh;
+  overflow: hidden;
+
+  
+}
+
